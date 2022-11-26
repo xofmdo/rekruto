@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Rekruto </title>
+
+<link rel="stylesheet" href="/static/css/rekruto.css">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="content">
+             <h1>
+                  <p>
+                    {{ name }}! {{ message }}!
+                  </p>
+                  {% if example != None %}
+                      <p>Пример: {{ example }}</p>
+                  {% endif %}
+                    <p><a href="https://t.me/xofmdo">Мой телеграмм</a></p>
+             </h1>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            <hr>
+
+
+        </div>
+    </div>
+</body>
+</html>
