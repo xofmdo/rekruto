@@ -1,1 +1,1 @@
-worker: python manage.py runserver
+worker: python rekruto/manage.py runserver
